@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li style="font-size: 20px;"><a href="#home">Home</a></li>
+                <li style="font-size: 20px;"><a href="#about">About</a></li>
+                <li style="font-size: 20px;"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1 style="font-size: 100px;">Welcome to Our Website</h1>
+            <p style="font-size: 50px; font-family:monospace; color: yellowgreen;text-align: center;">This is the main content area.</p>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <article>
+                <h3>Our Mission</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </article>
+            <article>
+                <h3>Our Team</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </article>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"><br><br>
+                <label for="subscribe">Subscribe to Newsletter:</label>
+                <input type="checkbox" id="subscribe" name="subscribe"><br><br>
+                <label for="contact-method">Preferred Contact Method:</label>
+                <input type="radio" id="email-contact" name="contact-method" value="email">
+                <label for="email-contact">Email</label>
+                <input type="radio" id="phone-contact" name="contact-method" value="phone">
+                <label for="phone-contact">Phone</label><br><br>
+
+                <button class="letterbtn" style="width: 200px; height: 50px; 
+ background-color: rgb(40, 134, 235); border: none;color: aliceblue;cursor: pointer;"> SUBMIT </button>
+               
+            </form>
+        </section>
+        <section id="multimedia">
+            <h2>Embedded Multimedia</h2>
+            <video width="500" controls>
+                <source src="video/naturevideo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+        <section id="table">
+            <h2>Table Example</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                </tr>
+                <tr>
+                    <td>Duaa Khan</td>
+                    <td>rehmat@example.com</td>
+                    <td>123-456-7890</td>
+                </tr>
+                <tr>
+                    <td>Duaa Khan</td>
+                    <td>rehmat@example.com</td>
+                    <td>098-765-4321</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
+
+
